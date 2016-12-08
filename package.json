@@ -1,0 +1,13 @@
+{
+  "name": "vue-spinner",
+  "version": "0.0.0",
+  "description": "Mint-ui(Vue2.x) widget spinner based on sass &amp; webpack.",
+  "homepage": "https://github.com/afeiship/vue-spinner",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+  }
+}
