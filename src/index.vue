@@ -1,5 +1,7 @@
 <template>
-  <button class="mint-button" :type="type" name="button"></button>
+  <button class="mint-button" :type="type" name="button">
+    <slot></slot>
+  </button>
 </template>
 
 <script>

@@ -1,7 +1,10 @@
 var path = require('path');
 var webpack=require('webpack');
 module.exports = {
-  entry: './src/main.js',
+  entry: {
+    index:'./src/main.js',
+    vendor:['vue']
+  },
   output: {
     path: './dist',
     publicPath: 'dist/',
@@ -25,6 +28,9 @@ module.exports = {
       js: 'babel'
     }
   },
+  plugins:[
+    new webpack.optimize.CommonsChunkPlugin('vendor',  'vendor.js')
+  ],
   resolve: {
     extensions: ['', '.js', '.vue'],
     alias: {
