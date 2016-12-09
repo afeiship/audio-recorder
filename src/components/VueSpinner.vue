@@ -1,5 +1,5 @@
 <template>
-  <span class="mint-spinner-snake"></span>
+  <span :class="['mint-spinner-snake',cssClass]"></span>
 </template>
 
 <script>
@@ -9,11 +9,9 @@ export default {
     type: {
       type: String,
       default: 'vue-spinner'
-    }
-  },
-  methods: {
-    _click: function() {
-      alert('Hello YO VUE!');
+    },
+    cssClass:{
+      type:String
     }
   }
 };

@@ -47,7 +47,6 @@
     "css-loader": "^0.25.0",
     "eventsource-polyfill": "^0.9.6",
     "express": "^4.13.3",
-    "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.9.0",
     "function-bind": "^1.0.2",
     "html-webpack-plugin": "^2.8.1",
@@ -56,8 +55,10 @@
     "isparta-loader": "^2.0.0",
     "json-loader": "^0.5.4",
     "lolex": "^1.4.0",
+    "node-sass": "^3.13.0",
     "opn": "^4.0.2",
     "ora": "^0.3.0",
+    "sass-loader": "^4.0.2",
     "selenium-server": "2.53.1",
     "semver": "^5.3.0",
     "shelljs": "^0.7.4",
@@ -69,9 +70,7 @@
     "webpack": "^1.13.2",
     "webpack-dev-middleware": "^1.8.3",
     "webpack-hot-middleware": "^2.12.2",
-    "webpack-merge": "^0.14.1",
-    "node-sass": "^3.13.0",
-    "sass-loader": "^4.0.2"
+    "webpack-merge": "^0.14.1"
   },
   "engines": {
     "node": ">= 4.0.0",
