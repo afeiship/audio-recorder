@@ -1,7 +1,9 @@
 import Vue from 'vue'
-import VueSpinner from './components/Spinner.vue'
+import VueSpinner from './components/VueSpinner.vue'
 
-Vue.component('mt-button', VueSpinner)
+Vue.component(VueSpinner.name, VueSpinner)
+
+console.log(VueSpinner);
 
 Vue.config.debug = true
 Vue.config.devtools = true
@@ -9,6 +11,6 @@ Vue.config.devtools = true
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
-  template: '<div><mt-button>Hello</mt-button></div>',
+  template: '<div><vue-spinner>Hello</vue-spinner></div>',
   components: { VueSpinner }
 })

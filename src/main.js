@@ -1,4 +1,2 @@
-import VueSpinner from './components/Spinner.vue';
-
+import VueSpinner from './components/VueSpinner.vue'
 export default VueSpinner;
-export { VueSpinner };
