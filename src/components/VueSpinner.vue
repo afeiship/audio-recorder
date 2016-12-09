@@ -2,8 +2,10 @@
   <span :style="{
     width:size,
     height:size,
-    border:`${width} solid ${color}`,
-    'border-right-color':'transparent'
+    'border-width':width,
+    'border-top-color': color,
+    'border-left-color': color,
+    'border-bottom-color': color,
   }" :class="['mint-spinner-snake',cssClass]"></span>
 </template>
 
