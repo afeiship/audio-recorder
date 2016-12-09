@@ -8,6 +8,6 @@ Vue.config.devtools = true
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
-  template: '<div><vue-spinner size="20px" css-class="test">Hello</vue-spinner></div>',
+  template: '<div><vue-spinner size="20px" width="2px" color="#f00" css-class="test" /></div>',
   components: { VueSpinner }
 })
