@@ -9,8 +9,8 @@ base.entry = {
 base.output = {
   path: config.build.assetsRoot,
   publicPath: config.build.assetsPublicPath,
-  filename: 'vue-button.js',
-  library: 'VueButton',
+  filename: 'vue-spinner.js',
+  library: 'VueSpinner',
   libraryTarget: 'umd'
 }
 
