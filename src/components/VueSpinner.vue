@@ -3,7 +3,7 @@
     width:size,
     height:size,
     border:`${width} solid ${color}`,
-    borderRightColor:'transparent'
+    'border-right-color':'transparent'
   }" :class="['mint-spinner-snake',cssClass]"></span>
 </template>
 
