@@ -1,14 +1,26 @@
 <template>
-  <span :class="['mint-spinner-snake',cssClass]"></span>
+  <span :style="{
+    width:size,
+    height:size,
+    border:`${width} solid ${color}`,
+    borderRightColor:'transparent'
+  }" :class="['mint-spinner-snake',cssClass]"></span>
 </template>
 
 <script>
 export default {
-  name: 'vue-spinner',
   props: {
-    type: {
-      type: String,
-      default: 'vue-spinner'
+    width:{
+      type:String,
+      default:'4px'
+    },
+    size:{
+      type:String,
+      default:'28px'
+    },
+    color:{
+      type:String,
+      default:'#26a2ff'
     },
     cssClass:{
       type:String
@@ -18,5 +30,5 @@ export default {
 </script>
 
 <style lang="sass">
-  @import "./style.scss";
+  @import "./style.scss"
 </style>
