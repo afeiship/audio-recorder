@@ -1,7 +1,11 @@
 import Recorder from 'js-audio-recorder';
 
+interface ChangeHandler {
+  (volumn: number): void;
+}
+
 class AudioRecorder extends Recorder {
-  static async watchVolumn(inAudioBuffer: any, onChange: any) {
+  static async watchVolumn(inAudioBuffer: any, onChange: ChangeHandler) {
     const audioContext = new AudioContext();
     const soundBuffer = inAudioBuffer;
     const sampleBuffer = await audioContext.decodeAudioData(soundBuffer);

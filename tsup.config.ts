@@ -2,7 +2,7 @@ import { defineConfig } from 'tsup';
 
 export default defineConfig({
   entry: ['src/*.ts'],
-  format: [/*'cjs', 'esm',*/ 'iife'],
+  format: ['cjs', 'esm', 'iife'],
   splitting: true,
   cjsInterop: true,
   globalName: 'AudioRecorder',
