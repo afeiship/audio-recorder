@@ -6,7 +6,7 @@ export default defineConfig({
   splitting: true,
   cjsInterop: true,
   globalName: 'AudioRecorder',
-  external: ['js-audio-recorder'],
+  external: ['js-audio-recorder', 'media-devices'],
   dts: true,
   sourcemap: true,
   outExtension({ format }) {

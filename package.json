@@ -26,7 +26,8 @@
   },
   "homepage": "https://js.work",
   "dependencies": {
-    "js-audio-recorder": "^1.0.7"
+    "js-audio-recorder": "^1.0.7",
+    "media-devices": "^0.4.0"
   },
   "keywords": [
     "audio",
