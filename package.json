@@ -1,6 +1,6 @@
 {
   "name": "@jswork/audio-recorder",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An audio recorder.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
