@@ -1,8 +1,39 @@
-#vue-spinner
-> Mint-ui(Vue2.x) widget vue-spinner based on sass &amp; webpack.
+# audio-recorder
+> An audio recorder.
 
+[![version][version-image]][version-url]
+[![license][license-image]][license-url]
+[![size][size-image]][size-url]
+[![download][download-image]][download-url]
 
-## resource:
-+ http://www.cnblogs.com/Kummy/p/4966937.html
-+ https://github.com/steven5538/vue-button
-+ https://yarnpkg.com/en/docs/install
+## installation
+```shell
+npm install @jswork/audio-recorder
+```
+
+## usage
+```js
+import audioRecorder from '@jswork/audio-recorder';
+
+// usage goes here.
+```
+
+## types
+```ts
+/// <reference types="@jswork/audio-recorder/global.d.ts" />
+```
+
+## license
+Code released under [the MIT license](https://github.com/afeiship/audio-recorder/blob/master/LICENSE.txt).
+
+[version-image]: https://img.shields.io/npm/v/@jswork/audio-recorder
+[version-url]: https://npmjs.org/package/@jswork/audio-recorder
+
+[license-image]: https://img.shields.io/npm/l/@jswork/audio-recorder
+[license-url]: https://github.com/afeiship/audio-recorder/blob/master/LICENSE.txt
+
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/audio-recorder
+[size-url]: https://github.com/afeiship/audio-recorder/blob/master/dist/index.min.js
+
+[download-image]: https://img.shields.io/npm/dm/@jswork/audio-recorder
+[download-url]: https://www.npmjs.com/package/@jswork/audio-recorder
