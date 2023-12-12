@@ -13,9 +13,7 @@ npm install @jswork/audio-recorder
 
 ## usage
 ```js
-import audioRecorder from '@jswork/audio-recorder';
-
-// usage goes here.
+import AudioRecorder from '@jswork/audio-recorder';
 ```
 
 ## types
